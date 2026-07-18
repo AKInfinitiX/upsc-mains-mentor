@@ -1,20 +1,17 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# UPSC Mentor AI
 
-# Run and deploy your AI Studio app
+A full-stack AI application designed to provide high-density, point-wise model answers for UPSC Civil Services Examination preparation, utilizing the Google Gemini API.
 
-This contains everything you need to run your app locally.
+## 🚀 Features
 
-View your app in AI Studio: https://ai.studio/apps/c553120d-da7d-4886-b023-9c781bbdf836
+*   **AI-Powered Mentorship**: Generates structured, exam-oriented responses tailored for various GS Papers.
+*   **Efficient Prompt Engineering**: Optimized to integrate relevant Constitutional Articles, landmark Supreme Court cases, and authoritative committee reports.
+*   **Serverless Architecture**: Built for high-performance deployment on Vercel using Express.
 
-## Run Locally
+## 🌐 Deployment
 
-**Prerequisites:**  Node.js
+This project is configured for seamless deployment on [Vercel](https://vercel.com).
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1.  **Import**: Connect your repository to the Vercel Dashboard.
+2.  **Configure**: Navigate to **Settings > Environment Variables** and add `GEMINI_API_KEY` with your production API key.
+3.  **Deploy**: Initiate the deployment process to launch your application.
