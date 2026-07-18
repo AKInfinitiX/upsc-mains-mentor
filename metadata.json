@@ -1,0 +1,6 @@
+{
+  "name": "UPSC Mains Elite Mentor",
+  "description": "A high-performance mentoring platform and answer-writing evaluator for the UPSC Civil Services Examination.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
